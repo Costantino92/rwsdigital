@@ -1,0 +1,85 @@
+.card {
+  border: 1px solid rgb(230, 230, 230);
+  background-color: rgb(249, 249, 249);
+  padding: 20px;
+}
+
+.timeline {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  margin-top: 10px;
+}
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 16%;
+  bottom: 20px;
+  width: 2px;
+  background: #ddd;
+}
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+}
+.entry .title {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 20%;
+  padding-right: 30px;
+  position: relative;
+  margin-right: 20px;
+}
+.entry .title:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid salmon;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 40%;
+  left: 74%;
+  z-index: 99;
+}
+.entry .title h3 {
+  margin: 0;
+  font-size: 120%;
+}
+.entry .title p {
+  margin: 0;
+  font-size: 100%;
+}
+/* .entry .body {
+  margin: 0 0 3em;
+  float: right;
+  width: 66%;
+  padding-left: 30px;
+} */
+.entry .body p {
+  line-height: 1.4em;
+}
+.entry .body p:first-child {
+  margin-top: 0;
+  font-weight: 400;
+}
+.entry .body ul {
+  /* color: #aaa; */
+  padding-left: 0;
+  list-style-type: none;
+}
+/* .entry .body ul li:before {
+  content: "–";
+  margin-right: 0.5em;
+} */
+.body {
+  padding-top: 6px;
+}

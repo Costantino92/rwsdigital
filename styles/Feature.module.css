@@ -1,0 +1,28 @@
+.navBar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  color: gray;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.leftMenu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.rightMenu {
+  padding: 10px;
+  background-color: rgb(240, 239, 239);
+  border-radius: 4px;
+}
+.selected {
+  background-color: rgb(240, 239, 239);
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: black;
+}

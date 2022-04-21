@@ -1,0 +1,22 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid rgb(230, 230, 230);
+  background-color: rgb(249, 249, 249);
+  padding: 20px;
+}
+
+.span {
+  background-color: lightgrey;
+  color: grey;
+  padding: 5px;
+  border-radius: 4px;
+}
